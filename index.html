@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weight Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="conatiner mx-auto">
+		<div class="row">
+			<div class="col-md">
+				<h1 class="display-4 text-center">Weight Calculator</h1>
+				<hr style="width:50%;text-align:center;">
+				<p class="text-center"><strong id="converter">Pound to Kilo and Ounces</strong></p>
+				<div style="text-align:center">
+				    <button type="button" id="Change" class="btn btn-secondary">Change</button>
+				</div>
+			</div>	
+		</div>
+		<hr style="width:50%;text-align:center;">
+		<div class="input_sec">
+			<form class="form-group text-center">
+				<input 
+				id="in_fo" 
+				class="" 
+				type="number"
+				placeholder="Enter Weight in Pound" 
+				name=""
+				>
+			</form>
+		</div>
+		<div class="card mx-auto" style="width: 18rem;">
+		  <ul class="list-group list-group-flush">
+		    <li class="list-group-item " ><strong id="1st_h">KiloGram: </strong><span id="1st_result"></span></li>
+		    <li class="list-group-item "><strong id="2nd_h">Ounces: </strong><span id="2nd_result"></span></li>
+		  </ul>
+		</div>
+		<div class="button">
+			<button type="button" id="reset" class="btn btn-lg btn-primary">Reset</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="required.js"></script>
+</body>
+</html>

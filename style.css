@@ -1,0 +1,35 @@
+body{
+	margin-top: 20px;
+	background: #11324D;
+}
+.conatiner{
+	width: 60%;
+	background:#368B85;
+	padding-bottom: 5%;
+	border-radius: 25px;
+}
+.conatiner h1{
+	color: #fff;
+}
+.conatiner a{
+	text-decoration: none;
+	color: #fff;
+	border:1px solid white;
+	padding: 5px;
+}
+.input_sec{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.button{
+	text-align: center;
+	margin-top: 10px;
+}
+#reset{
+	background-color: #2D46B9;
+	border:none;
+}
+#Change{
+	background-color: #368B85;
+	color: black;
+}
